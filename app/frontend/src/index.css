@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 25% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 230 25% 7%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 230 25% 5%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 255 85% 65%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 230 20% 12%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 230 20% 15%;
+    --muted-foreground: 215 20% 70%;
+
+    --accent: 255 85% 65%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --success: 142 76% 45%;
+    --success-foreground: 210 40% 98%;
+    
+    --warning: 38 92% 55%;
+    --warning-foreground: 48 96% 20%;
+
+    --border: 230 20% 15%;
+    --input: 230 20% 15%;
+    --ring: 255 85% 65%;
+
+    --radius: 0.75rem;
+  }
+
+  .light {
+    --background: 210 40% 98%;
+    --foreground: 230 25% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 230 25% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 25% 4%;
+
+    --primary: 255 80% 55%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 230 25% 4%;
+
+    --muted: 210 40% 94%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 255 80% 55%;
+    --accent-foreground: 230 25% 4%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --success: 142 76% 36%;
+    --success-foreground: 210 40% 98%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 48 96% 89%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 255 80% 55%;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-card/60 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+  
+  .glass-light {
+    @apply bg-white/40 backdrop-blur-xl border border-black/5 shadow-xl;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-white to-white/60;
+  }
+  
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-primary to-purple-400;
+  }
+  
+  .border-gradient {
+    border-image: linear-gradient(to bottom right, var(--primary), transparent) 1;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border selection:bg-primary/30;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}

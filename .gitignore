@@ -1,0 +1,48 @@
+# Security and Environments
+.env
+.env.*
+!.env.example
+.venv/
+app/.venv/
+venv/
+app/frontend/node_modules/
+node_modules/
+app/frontend/dist/
+dist/
+
+# Configuration & Tooling
+.vscode/
+.pyre/
+app/.pyre/
+pyre_errors.json
+
+# Python Cache and Tooling
+__pycache__/
+**/__pycache__/
+*.py[cod]
+**/*.py[cod]
+*$py.class
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+**/.pytest_cache/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Package managers
+.pnpm-store/
+node_modules/
+**/node_modules/
+
+# Logs & Generated Files
+*.log
+**/*.log
+*.pdf
+**/*.pdf
+
+# Redis / PG Data (if mapped locally)
+postgres-data/
+redis-data/
+
+# Local raw reference files (too large for GitHub)
+doc-files/

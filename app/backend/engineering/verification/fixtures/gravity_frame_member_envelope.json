@@ -1,0 +1,16 @@
+{
+  "id": "gravity-frame-member-envelope-v1",
+  "status": "prototype",
+  "description": "Deterministic benchmark fixture for a regular one-bay gravity frame member response.",
+  "units": {"force": "kN", "moment": "kN-m"},
+  "responses": {"Mu": {"D": 100.0, "L": 50.0, "R": 20.0, "W": -80.0, "E": 30.0}},
+  "expected": {
+    "maximum": {"value": 210.0, "combination": "U2"},
+    "minimum": {"value": 10.0, "combination": "U5"}
+  },
+  "provenance": {
+    "source": "DesignBook benchmark fixture",
+    "solver": "not applicable; load-combination envelope only",
+    "review_status": "prototype"
+  }
+}

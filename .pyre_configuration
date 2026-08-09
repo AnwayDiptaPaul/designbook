@@ -1,0 +1,19 @@
+{
+  "source_directories": [
+    "/home/garylan/Desktop/Codes/AntiGravity/DesignBook"
+  ],
+  "search_path": [
+    "/home/garylan/Desktop/Codes/AntiGravity/DesignBook/app",
+    "/home/garylan/Desktop/Codes/AntiGravity/DesignBook/app/.venv/lib/python3.12/site-packages"
+  ],
+  "site_package_search_path": [
+    "/home/garylan/Desktop/Codes/AntiGravity/DesignBook/app/.venv/lib/python3.12/site-packages"
+  ],
+  "exclude": [
+    ".*/__pycache__/.*",
+    ".*/\\.venv/.*",
+    ".*/__pyrefly_virtual__/.*"
+  ],
+  "python_version": "3.12",
+  "python_path": "/home/garylan/Desktop/Codes/AntiGravity/DesignBook/app/.venv/bin/python"
+}

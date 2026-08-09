@@ -1,0 +1,23 @@
+[project]
+name = "DesignBook"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "sqlalchemy",
+    "pydantic",
+    "numpy",
+    "openseespy"
+]
+
+[tool.pyright]
+include = ["app"]
+exclude = ["**/__pyrefly_virtual__/**", "**/__pycache__/**", "**/.venv/**"]
+extraPaths = [
+    "app",
+    "app/backend"
+]
+venvPath = "app"
+venv = ".venv"
+pythonVersion = "3.12"
+typeCheckingMode = "basic"
+reportAttributeAccessIssue = false
