@@ -1,24 +1,116 @@
-This is free and unencumbered software released into the public domain.
+# Proprietary License — All Rights Reserved
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Copyright © 2026 ANWAY DIPTA PAUL. All Rights Reserved.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+## 1. Ownership
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+This software, including but not limited to its source code, object code, algorithms, calculations, formulas, models, databases, documentation, graphical user interfaces, designs, assets, configuration files, and other associated materials (collectively, the **"Software"**), is the exclusive property of [YOUR NAME / COMPANY NAME] and is protected by applicable copyright and other intellectual-property laws.
 
-For more information, please refer to <https://unlicense.org>
+All rights not expressly granted by the copyright holder are reserved.
+
+## 2. No License Granted
+
+Unless you have received explicit written permission from ANWAY DIPTA PAUL, you are **not granted any license or right** to:
+
+* Copy, reproduce, or duplicate the Software or any substantial portion of it;
+* Modify, adapt, translate, or create derivative works based on the Software;
+* Distribute, publish, sublicense, sell, lease, rent, or otherwise make the Software available to third parties;
+* Use the Software or any substantial portion of its source code in another software product;
+* Incorporate the Software or its code into commercial or non-commercial applications;
+* Reverse engineer, decompile, disassemble, or attempt to derive the source code of compiled versions of the Software, except where such restriction is prohibited by applicable law;
+* Remove, alter, or obscure copyright, license, attribution, or proprietary notices;
+* Use the Software, its source code, algorithms, or substantial portions thereof for training or developing another software system without prior written permission;
+* Claim ownership of the Software or any derivative work based on it.
+
+## 3. GitHub Repository Access
+
+Publication of this Software on GitHub, or any other public repository or hosting service, **does not constitute the granting of an open-source license** or any permission beyond the rights expressly stated in this license.
+
+Viewing the source code through the repository interface is permitted for personal inspection and evaluation only, subject to the restrictions of this license.
+
+Forking, mirroring, downloading, or reproducing the repository or its contents for purposes other than permitted personal inspection requires prior written authorization from the copyright holder.
+
+## 4. Personal Evaluation
+
+Unless otherwise stated by the copyright holder, an individual may inspect and evaluate the Software for personal, non-commercial purposes.
+
+Such evaluation does not grant permission to:
+
+* redistribute the Software;
+* publish modified versions;
+* use the Software as part of another application;
+* provide the Software as a service to third parties;
+* use its source code, algorithms, or architecture to create a competing product; or
+* use the Software for professional engineering services without explicit authorization.
+
+## 5. Commercial Use
+
+Commercial use of the Software requires a separate written license from ANWAY DIPTA PAUL.
+
+Commercial use includes, but is not limited to:
+
+* using the Software in an engineering consultancy or business;
+* using the Software to produce engineering designs, calculations, reports, drawings, or other deliverables for clients;
+* incorporating the Software into another commercial product;
+* providing access to the Software as a service;
+* selling, licensing, leasing, or sublicensing the Software;
+* using the Software to generate revenue directly or indirectly.
+
+## 6. Engineering Disclaimer
+
+The Software may perform structural, geotechnical, mathematical, computational, or engineering calculations.
+
+The Software is provided **"AS IS" and "AS AVAILABLE"**, without warranties of any kind, whether express or implied.
+
+The copyright holder makes no representation or warranty regarding the accuracy, completeness, reliability, suitability, or fitness of the Software or its calculations for any particular engineering application.
+
+The Software is not a substitute for professional engineering judgment, independent verification, applicable building codes, standards, project specifications, or review by a suitably qualified professional engineer.
+
+Users are solely responsible for verifying all inputs, assumptions, calculations, results, code provisions, load combinations, design parameters, and engineering decisions before relying upon any output of the Software.
+
+## 7. No Liability
+
+To the maximum extent permitted by applicable law, ANWAY DIPTA PAUL shall not be liable for any direct, indirect, incidental, consequential, special, exemplary, or other damages arising from or related to:
+
+* the use or inability to use the Software;
+* errors or omissions in calculations;
+* reliance upon Software output;
+* structural or engineering decisions made using the Software;
+* loss of data, revenue, business, or profits; or
+* any other use of the Software.
+
+## 8. Third-Party Components
+
+This license applies only to material owned by [YOUR NAME / COMPANY NAME].
+
+Third-party libraries, dependencies, datasets, fonts, icons, APIs, code, and other components included in or used by the Software may be subject to their own licenses.
+
+Those third-party licenses remain applicable and are not superseded by this license.
+
+## 9. Government and Regulatory Requirements
+
+Nothing in this license is intended to restrict rights that cannot legally be restricted under applicable law.
+
+Where mandatory statutory rights conflict with a provision of this license, the applicable statutory requirement shall prevail only to the extent necessary.
+
+## 10. Permission Requests
+
+Requests for permission to use, modify, redistribute, commercialize, sublicense, or otherwise exploit the Software should be directed to:
+
+**Copyright Holder:** ANWAY DIPTA PAUL
+**Email:** anwaydpaul237@gmail.com
+**Repository:** https://github.com/AnwayDiptaPaul/designbook/
+
+Written permission must be obtained before undertaking any activity prohibited by this license.
+
+## 11. Reservation of Rights
+
+All rights not expressly granted under this license are reserved by the copyright holder.
+
+This includes all rights relating to the Software's source code, architecture, algorithms, design methodology, documentation, and associated intellectual property.
+
+---
+
+**Copyright © 2026 ANWAY DIPTA PAUL. All Rights Reserved.**
+
+This software is **not open source** unless a separate license expressly states otherwise.
